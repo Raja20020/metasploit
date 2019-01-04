@@ -18,13 +18,13 @@ gem install lolcat
  	echo "  me for more new tools and much more things " | lolcat
 	echo " "
 	echo " "
-	echo "		           - Thank you to all" | lolcat
+	echo "		           - Thanks all guys" | lolcat
 	echo "
 	echo " "
 	sleep 1
 	echo " "
-  sleep 1
-	echo -n " press enter to continue........." | lolcat
+        sleep 1
+	echo -n " press enter to continue......." | lolcat
 	read FA
 
 
@@ -33,13 +33,14 @@ apt install -y autoconf bison clang coreutils axel curl findutils git apr apr-ut
 echo "=======================================" | pv -qL 20
 
 apt update && apt upgrade
-echo " [ + ] Downloading & Extracting....... " |  pv -qL 20
+echo " [ + ] Download & Extract....... " |  pv -qL 20
 
 find $HOME -name "*.16.tar.gz" -type f
 
-# Remove Old Folders
-find $HOME -name "metasploit*" -type d
 
+echo " "
+echo " "
+	           - Thanks all guyecho " "echo " "s" | lolc
 cd $HOME
 axel --alternate https://github.com/rapid7/metasploit-framework/archive/4.16.16.tar.gz
 tar -xf $HOME/metasploit-framework-4.16.16.tar.gz
