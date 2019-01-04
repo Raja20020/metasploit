@@ -1,6 +1,8 @@
 
 #!/data/data/com.termux/files/usr/bin/bash
 #thanks for lokesh pandey
+pkg install figlet
+figlet Raja
 mv metasloit.sh $HOME
 apt install pv -y
 pkg install ruby -y
@@ -27,6 +29,8 @@ gem install lolcat
 	echo -n " press enter to continue......." | lolcat
 	read FA
 
+pkg install sl
+sl
 
 apt install -y autoconf bison clang coreutils axel curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
 
@@ -72,6 +76,7 @@ ln -sf $HOME/metasploit-framework/msfconsole /data/data/com.termux/files/usr/bin
 ln -sf $HOME/metasploit-framework/msfvenom /data/data/com.termux/files/usr/bin/
 termux-elf-cleaner /data/data/com.termux/files/usr/lib/ruby/gems/2.4.0/gems/pg-0.20.0/lib/pg_ext.so
 clear
+figlet Raja
 echo " [ $ ] Creating database "
 echo " "
 echo -n " [ Loading"
@@ -90,6 +95,7 @@ clear
 echo " 
 echo " 
 echo " 
+sl
 echo " 
 sleep 1
 echo "                  
@@ -98,6 +104,7 @@ echo "
 echo "                                
 echo " 
 echo " "
+figlet Metasploit
 echo " [ $ ] Now you can run metasploit by using " | pv -qL 20
 echo -n "       the commond => " | pv -qL 20
 echo "msfconsole" | lolcat | pv -qL 10
